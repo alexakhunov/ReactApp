@@ -1,0 +1,22 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_items {
+  padding: 10px;
+}
+
+.dialogs_items .active {
+  color: rgb(219, 19, 52);
+  /* font-weight: bold; */
+}
+
+.messages {
+  padding: 10px;
+}
+
+.message:hover {
+  font-size: 20px;
+  color: brown;
+}
